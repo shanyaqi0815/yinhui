@@ -1,0 +1,302 @@
+			*{
+				margin: 0;
+				padding: 0;;
+			}
+			a{
+				text-decoration: none;
+			}
+			#haeder{
+				width: 100%;
+				height: 814px;
+				background: url(../img/1.gif) no-repeat;
+				background-size: 100%;100%;
+				position: relative;
+			}
+			#haeder>.text{
+				width: 120px;
+			    height: 100px;
+			    border-radius: 50%;
+			    background-color: #f2e3b9;
+			    position: absolute;
+			    left: 77%;
+			    top: 14%;
+			    text-align: center;
+			    padding-top: 20px;
+			    font-size: 24px;
+			    font-weight: bold;
+			    animation: textColor 3s infinite;
+			}
+			#haeder>.text1{
+				width: 413px;
+			    height: 60px;
+			    position: absolute;
+			    left: 34%;
+			    top: 81%;
+			    text-align: center;
+			    padding-top: 20px;
+			    font-size: 26px;
+			    font-weight: bold;
+			    animation: textColor 3s infinite;
+			}
+			/*字体颜色帧动画*/	
+			@keyframes textColor{
+				0%{color: red;}
+				50%{color:yellow;}
+				100%{color:green;}
+			}	
+			
+			#berder{
+				width: 100%;height: 180px;
+				background: url(../img/2.gif) no-repeat;
+				background-size: 100% 100%;
+				position: relative;
+				box-shadow: 1px 5px 10px rgba(0,0,0,0.5);
+			}	
+			#berder a{
+				position: absolute;
+			    right: 6%;
+			    top: 20%;
+			    width: 110px;
+			    height: 100px;
+			    background-color: #d07083;
+			    text-align: center;
+			    font-size: 26px;
+			    font-weight: bold;
+			    border-radius: 50%;
+			    padding-top: 10px;
+			    animation: textColor 3s infinite;
+			}
+			#berder .text1{
+				position: absolute;
+				left: 19%;
+				top: 24%;
+				font-size: 42px;
+				font-weight: bold;
+				color: #fff;
+				text-shadow: 1px 5px 10px rgba(0,0,0,0.5);
+				animation: textColor 3s infinite;
+			}
+			#berder .text2{
+				position: absolute;
+				left: 30%;
+				top: 58%;
+				font-size: 34px;
+				font-weight: bold;
+				color: #487072;
+				background: #fff;
+				padding: 0 40px;
+				border-radius: 50px;
+				text-shadow: 1px 5px 10px rgba(0,0,0,0.5);
+			}
+			#berder1{
+				width: 100%;height: 460px;
+				background: url(../img/3.gif) no-repeat;
+				background-size: 100% 100%;
+				position: relative;
+				display: inline-block;
+				
+			}
+			#berder1 .text{
+				width: 420px;
+				margin: 9% auto 0;
+				background-color: #d07286;
+				border-radius: 50px;
+				text-align: center;
+				font-size:34px;color: #fff;
+				text-shadow: 1px 5px 10px rgba(0,0,0,0.5);
+			}
+			#berder1 .text1{
+				width: 560px;
+			    margin: 3% auto 0;
+			    text-align: center;
+			    font-size: 36px;
+			    text-shadow: 1px 5px 10px rgba(0,0,0,0.5);
+			}
+			#berder1 .text1 strong{
+				font-size: 40px;
+			}
+			#berder1 .text2{
+				width: 560px;
+			    margin: 3% auto 0;
+			   
+			   
+			}
+			#berder1 .text2 > p{
+				display: inline-block; font-size: 24px;
+				padding: 2px 10px;background-color: #e09db1;
+				border-radius: 20px;color: #fff;
+				text-shadow: 1px 5px 10px rgba(0,0,0,0.5);
+				 animation: textColor 3s infinite;
+			}
+			#berder1 .text3{
+				width: 600px;  margin: 2% auto 0;
+			}
+			#berder1 .text3 hr{
+				width: 100px;height: 2px;background-color: #e09db1;
+				display: inline-block;vertical-align:middle;
+			}
+			#berder1 .text3 span{
+				vertical-align:middle;font-size: 40px;color: #fe4684;
+			}
+			#berder1 .text4{
+				width: 560px;  margin: 2% auto 0;
+			}
+			#berder1 .text4 p{
+				display: inline-block;
+				font-size: 22px;
+				color: #000;
+				text-shadow: 1px 5px 10px rgba(0,0,0,0.5);
+				margin-left: 30px;
+			}
+			#barder2{
+				width: 100%;height: 180px;
+				background: url(../img/4.gif) no-repeat;
+				background-size: 100% 100%;
+				position: relative;
+				box-shadow: 1px 5px 10px rgba(0,0,0,0.5);
+			}
+			#barder2 h2{
+				padding: 65px 0 0 0 ;
+				width: 320px;
+				font-size: 80px; 
+				color: #fff;text-align: center;
+				margin: auto;
+			}
+			#barder3{
+				display: inline-block;
+				width: 100%;height: 2140px;
+				background:red;
+				background: url(../img/tianmao.gif) no-repeat;
+				background-size: 100% 100%;
+				position: relative;
+				box-shadow: 1px 5px 10px rgba(0,0,0,0.5);
+			}
+			#barder3 .text{
+				width: 420px;			
+				margin:18% auto 2%;
+				background-color: #d07286;
+				border-radius: 50px;
+				text-align: center;
+				font-size:34px;color: #fff;
+				text-shadow: 1px 5px 10px rgba(0,0,0,0.5);
+			}
+			#barder3 .box{
+				width:825px ;height: 350px;
+				margin: auto;border:2px solid #39828c;
+				background: url(../img/boxbg.gif) no-repeat;
+				background-size: 100% 100%;
+				margin-bottom: 30px;
+			}
+			#barder3 .box .img{
+				width: 56%;
+				float: left;
+				transition:all 1s;
+			}
+			#barder3 .box .img img{
+				width: 100%;margin-top: 27px;
+			}
+			#barder3 .box .img:hover{
+				transform:translateY(-20px) ;
+			}
+			#barder3 .box .cen{
+				float: right;
+				width: 44%;
+				height: 100%;
+			}
+			#barder3 .box .cen .top{
+				width: 100%;
+				height: 50%;
+			}
+			#barder3 .box .cen .top>p{
+				font-size: 50px;
+				text-align: center;
+				margin:20px 0 0 0;
+				animation: textColor 3s infinite;
+	
+			}
+			#barder3 .box .cen .top .yuding{
+				margin: 0 auto;
+				width: 320px;
+				background: #cb6377;
+			}
+			#barder3 .box .cen .top .yuding p{
+				margin-bottom: 0;
+				font-size: 20px;
+				text-align: center;
+				
+			}
+			#barder3 .box .cen .top .yuding  .text_1{
+				margin-bottom: 0;
+				font-size: 18px;
+				text-align: center;
+				color: #fff;
+			}
+			#barder3 .box .cen .bot{
+				position:relative;
+				width: 100%;
+				height: 50%;
+				
+			}
+			#barder3 .box .cen .bot_1{
+				margin: 20% auto 0;
+				width: 220px;height: 80px;
+				background: url(../img/xian.gif) no-repeat;
+			}
+			#barder3 .box .cen .bot_2{
+				position: absolute;
+			    left: 141px;
+			    padding-top: 16px;
+			    text-align: center;
+			    top: -35px;
+			    width: 77px;
+			    height: 100px;
+			    background: url(../img/jiantou.gif) no-repeat;
+			    background-size: 100% 100%;
+			    animation: name1 1s infinite;
+			    color: #fff;text-shadow: 1px 5px 10px rgba(0,0,0,0.5);
+			}
+			@keyframes name1{
+				0%{top: -35px;}
+				25%{top: -37px;}
+				50%{top: -50px;}
+				75%{top: -37px;}
+				
+				100%{top: -35px;}
+			}
+			#barder3 .box .cen .bot_3{
+				position: absolute;
+			    left: 33px;
+			    text-align: center;
+			    top: 16px;
+			    width: 77px;
+			    height: 45px;
+			    color: #000;
+			    text-shadow: 1px 5px 10px rgba(0,0,0,0.5);
+			}
+			#barder3 .box .cen .bot_3 strong{
+				color: #fe4f84;
+			}
+			#barder3 .box .cen .bot_4{
+				position: absolute;
+			    left: 242px;
+			    text-align: center;
+			    top: -30px;
+			    width: 77px;
+			    height: 26px;
+			    color: #000;
+			    text-shadow: 1px 5px 10px rgba(0,0,0,0.5);
+			}
+			#barder3 .box .cen .bot_4 strong{
+				color: #fe4f84;
+			}
+			#barder3 .box .cen .bot_5{
+				position: absolute;
+			    left: 275px;
+			    text-align: center;
+			    top: 46px;
+			    width: 77px;
+			    height: 26px;
+			    color: #fff;
+			    border-radius: 10px;
+			    background: #c4586b;
+			}
